@@ -6,8 +6,8 @@ on:
   pull_request:
     branches: [ main ]
 
-# SECURITY CONCERN: Overly permissive permissions (should be restricted to contents: read)
-permissions: write-all
+permissions:
+  contents: read
 
 jobs:
   build-and-test:
